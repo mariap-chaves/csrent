@@ -13,6 +13,7 @@ import java.util.List;
 @Service
 public class ReservationService {
 
+@Autowired
 private ReservationRepository reservationRepository;
 private UserService userService;
 private SpaceService spaceService;
